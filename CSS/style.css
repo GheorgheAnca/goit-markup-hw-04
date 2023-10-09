@@ -397,19 +397,21 @@ h3 {
         flex-wrap: wrap;
         justify-content: center;
         text-align: center;
-        gap: 10px;
+        gap: 10px;   
+}
+
+
+svg{
+        width: 20px;
+        height: 15px;
         
 }
-.social-icon {
-        border-radius: 50%;
-        align-items: flex-start;
-        width: 20px;
-        height: 20px;
-        gap: 10px;
-        fill: #AFB1B8;
-        stroke:rgba(255,255,255,1);
-        background-color: rgba(255, 255, 255, 1);
+
+.social-icon{
        
+        border-radius: 50%;
+        fill: #AFB1B8;
+        stroke: rgba(255, 255, 255, 1);
 }
 .social-icon:hover{
         cursor: pointer;
@@ -423,6 +425,7 @@ h3 {
         display: flex;
         box-sizing: border-box;
         flex-direction: column;
+       
 }
 .group-team{
         display: flex;
@@ -544,6 +547,7 @@ h3 {
         justify-content: center;
         text-align: center;
         gap: 10px;
+        
     }
 
 .find-us{
@@ -553,17 +557,20 @@ h3 {
   text-align: center;
         
 }
+svg{
+        width: 20px;
+        height: 20px;
+        
+}
 
 .last-icon{
         justify-content: flex-start;
         border-radius: 50%;
         align-items: center;
-        width: 20px;
-        height: 20px;
-        gap: 10px;
         fill: rgba(47, 48, 58, 1);
         stroke: rgba(255, 255, 255, 1);
         background-color: rgba(47, 48, 58, 1);
+        
 
 }
 .last-icon:hover{
