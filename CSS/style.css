@@ -90,15 +90,11 @@ span:last-child {
             
     }
 
-.contact {
-        font-family: Roboto;
-        font-size: 14px;
-        font-weight: 500;
-        letter-spacing: 0.02em;
+.contact{
+        
         display: flex;
         padding: 15px;
         padding-top: 5px;
-        text-decoration-line:none;
         min-width: 30%;
         justify-content: space-evenly;
     }
@@ -112,6 +108,16 @@ span:last-child {
   .contact-link:hover{
         color: rgba(33, 150, 243, 1);
   }
+  .contact-link{
+        color: #757575;
+        font-family: Roboto;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        letter-spacing: 0.28px;
+        text-decoration-line: none;
+}
 
   
     
