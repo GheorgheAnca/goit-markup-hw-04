@@ -99,14 +99,11 @@ span:last-child {
         justify-content: space-evenly;
     }
 
-    .icon-1{
-        width: 15px;
-        padding-right:10px;
-        fill: rgba(117, 117, 117, 1);
-    }
+   
 
   .contact-link:hover{
         color: rgba(33, 150, 243, 1);
+        fill: rgba(33, 150, 243, 1);
   }
   .contact-link{
         color: #757575;
@@ -117,6 +114,7 @@ span:last-child {
         line-height: normal;
         letter-spacing: 0.28px;
         text-decoration-line: none;
+        fill:#757575
 }
 
   
@@ -156,22 +154,15 @@ li {
 
 .navigation-link:hover {
         color:rgba(33, 150, 243, 1);
+        
 }
 
-.email{
-        height: 16px ;
-     
-    
-}
-.phone{
-        height: 16px ;
+
         
-   
-}
-.link, .contact {
+.link {
         color: rgba(33, 33, 33, 1);
 }
-.link:hover, .link:focus , .contact:hover, .contact:focus  {
+.link:hover, .link:focus {
         color: rgba(33, 150, 243, 1);
 }
 
