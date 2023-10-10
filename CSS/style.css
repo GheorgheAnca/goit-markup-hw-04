@@ -106,13 +106,12 @@ span:last-child {
     .icon-1{
         width: 15px;
         padding-right:10px;
-        padding-top: 5px;
         fill: rgba(117, 117, 117, 1);
     }
 
-    .icon-1:hover {
-        fill: rgba(33, 150, 243, 1);
-    }
+  .contact-link:hover{
+        color: rgba(33, 150, 243, 1);
+  }
 
   
     
@@ -408,16 +407,18 @@ svg{
 }
 
 .social-icon{
-       
-        border-radius: 50%;
+        display: flex;
+        align-items: center;
+       padding: 10px;
+        border-radius:50%;
         fill: #AFB1B8;
         stroke: rgba(255, 255, 255, 1);
 }
 .social-icon:hover{
+        
         cursor: pointer;
         background-color: rgba(33, 150, 243, 1);
-        fill: rgba(33,150,243,1);
-        stroke: rgba(255, 255, 255, 1);
+        fill: rgba(255, 255, 255, 1);
         
 }
 .our-team {
@@ -438,7 +439,7 @@ svg{
     }
 
 .card-bg{
-        height: 340px;
+        
         box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
         background-color: rgba(255, 255, 255, 1);
     }
@@ -564,6 +565,9 @@ svg{
 }
 
 .last-icon{
+        display: flex;
+        align-items: center;
+        padding: 10px;
         justify-content: flex-start;
         border-radius: 50%;
         align-items: center;
@@ -576,8 +580,7 @@ svg{
 .last-icon:hover{
         cursor: pointer;
         background-color: rgba(33, 150, 243, 1);
-                fill: rgba(33, 150, 243, 1);
-                stroke: rgba(255, 255, 255, 1);
+                fill: rgba(255, 255, 255, 1);
 }
 
     .subtitle-4{
