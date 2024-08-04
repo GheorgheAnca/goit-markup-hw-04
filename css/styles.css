@@ -195,6 +195,17 @@ body {
     padding: 120px 0;
 }
 
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    border: 1px solid #8e8f99;
+    margin-bottom: 8px;
+}
+
 .our-company-hidden-title {
     position: absolute;
     width: 1px;
